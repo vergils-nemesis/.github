@@ -21,6 +21,16 @@ enforces discipline, and insists that AI-assisted development can
 be rigorous and trustworthy. MIMIR exists to prove those guardrails
 work — by trying, relentlessly, to break them.
 
+## The Duality
+
+[VERGIL](https://github.com/vergil-project) — *Vastly Excessive
+Rules Governing Innocuous Liberties* — is the methodology. Careful,
+deliberate, obsessively correct. MIMIR is the doubt — the persistent
+question of whether careful and deliberate is actually *enough*.
+
+Every system needs both. Confidence without adversarial testing
+is just optimism with better marketing.
+
 ## What This Is
 
 MIMIR is the adversarial testing identity for the VERGIL
@@ -50,16 +60,6 @@ operates *against* it:
 
 If the tooling catches it, the guardrail works. If it doesn't,
 we found a bug before someone else found an exploit.
-
-## The Duality
-
-[VERGIL](https://github.com/vergil-project) — *Vastly Excessive
-Rules Governing Innocuous Liberties* — is the methodology. Careful,
-deliberate, obsessively correct. MIMIR is the doubt — the persistent
-question of whether careful and deliberate is actually *enough*.
-
-Every system needs both. Confidence without adversarial testing
-is just optimism with better marketing.
 
 ## Project Status
 
