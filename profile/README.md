@@ -34,10 +34,10 @@ before production does it for us.
 
 ## How It Works
 
-The `wphillipmoore-mimir` account authenticates as a hostile
-outsider — an AI identity with access but no respect for the
-rules. It does not operate within VERGIL's discipline. It operates
-*against* it:
+Each contributor's `<username>-mimir` account authenticates as a
+hostile outsider — an AI identity with access but no respect for
+the rules. It does not operate within VERGIL's discipline. It
+operates *against* it:
 
 - Attempts commits that violate branch protection
 - Submits PRs that skip required checks
