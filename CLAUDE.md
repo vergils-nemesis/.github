@@ -43,7 +43,7 @@ Use `vrg-submit-pr` for all pull requests.
 
 ```text
 .claude/settings.json    — Claude Code permissions and plugin config
-.githooks/pre-commit     — pre-commit gate (vrg-commit only)
+.claude/hooks/guard.sh   — Claude Code PreToolUse hook guard
 profile/README.md        — org profile (rendered on github.com/vergils-nemesis)
 profile/Mimir-Banner.png — org profile banner image
 CLAUDE.md                — this file

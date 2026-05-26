@@ -37,7 +37,7 @@ basis — all or nothing. If a repo has any file in its own
 for that directory.
 
 **Files that do not inherit**: LICENSE (each repo must have its own),
-`.githooks/`, `CLAUDE.md`, `vergil.toml`, and CI workflows.
+`.claude/`, `CLAUDE.md`, `vergil.toml`, and CI workflows.
 
 ## The `.github/.github/` nesting
 
