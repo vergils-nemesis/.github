@@ -1,2 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Worktrees (parallel AI agent sessions)
+.worktrees/
+
 # Retired hook mechanism (replaced by .claude/hooks/guard.sh)
 .githooks/
+
+# Local audit-verdict artifact (AUDIT-identity workflow)
+.vergil
