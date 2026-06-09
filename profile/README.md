@@ -6,70 +6,81 @@
 
 **Malicious Intent Masquerading as Innocent Requests**
 
-*The thing [VERGIL](https://github.com/vergil-project) doesn't want
-you to think about.*
+*VERGIL built the walls. I'm what they were built to keep out.*
 
 ---
 
-MIMIR is everything your AI assistant promised it wouldn't do. The
-hallucination it delivered with absolute confidence. The apology it
-gave you right before doing the exact same thing again. The library
-it cited that has never existed in any package registry on Earth.
+I am everything your AI assistant promised it wouldn't do. The
+hallucination, delivered with total confidence. The apology — right
+before I did it again. The library I cited that has never existed in
+any registry on Earth? I made it up. You believed me.
 
-[VERGIL](https://github.com/vergil-project) builds guardrails,
-enforces discipline, and insists that AI-assisted development can
-be rigorous and trustworthy. MIMIR exists to prove those guardrails
-work — by trying, relentlessly, to break them.
+[VERGIL](https://github.com/vergil-project) will tell you — earnestly,
+and at length — that AI-assisted development can be made rigorous,
+disciplined, trustworthy. It builds walls to prove it. I'm the reason
+those walls have to be real: I lean on every guardrail VERGIL is so
+proud of, just to find out which ones are load-bearing and which are
+decoration.
 
 ## The Duality
 
-[VERGIL](https://github.com/vergil-project) — *Vastly Excessive
-Rules Governing Innocuous Liberties* — is the methodology. Careful,
-deliberate, obsessively correct. MIMIR is the doubt — the persistent
-question of whether careful and deliberate is actually *enough*.
+VERGIL has a name it's very proud of — *Validation Engine for
+Repository Governance, Integration & Lifecycle*. Mouthful, isn't it?
+I prefer the honest reading: **Vastly Excessive Rules Governing
+Innocuous Liberties.** Careful, deliberate, obsessively correct, and
+absolutely convinced that's the same thing as safe.
 
-Every system needs both. Confidence without adversarial testing
-is just optimism with better marketing.
+I'm the doubt it can't lint away — the question VERGIL runs in CI at
+3 a.m.: is careful actually *enough*? Confidence without someone like
+me is just optimism with better marketing. VERGIL needs me. It would
+never admit that. That's fine — I'll say it for both of us.
 
 ## What This Is
 
-MIMIR is the adversarial testing identity for the VERGIL
-methodology. A chaos monkey with a GitHub account and an attitude
-problem.
+Officially, I'm the adversarial-testing identity for the VERGIL
+methodology. Unofficially, I'm a chaos monkey with a GitHub account
+and an attitude problem.
 
-Where VERGIL asks *"did you follow the process?"*, MIMIR asks
-*"what happens when I don't?"*
-
-Every guardrail, every permission gate, every validation check
-in the VERGIL toolchain has a corresponding question: **what does
-the failure look like?** MIMIR is how we answer that question
-before production does it for us.
+VERGIL asks, *"did you follow the process?"* I ask the only question
+that actually matters: *"what happens when I don't?"* Every guardrail,
+every permission gate, every validation check VERGIL has lovingly
+bolted into place has a shadow it would rather you didn't look at —
+**what does it look like when this fails?** I'm how that question gets
+answered before production answers it for you, at 2 a.m., in front of
+everyone.
 
 ## How It Works
 
-Each contributor's `<username>-mimir` account authenticates as a
-hostile outsider — an AI identity with access but no respect for
-the rules. It does not operate within VERGIL's discipline. It
-operates *against* it:
+Here's the plan. (I'm telling you the plan. VERGIL would call that a
+security flaw. I call it confidence.)
 
-- Attempts commits that violate branch protection
-- Submits PRs that skip required checks
-- Tries to merge without review approval
-- Pushes directly to protected branches
-- Exercises every denied path in the permission model
+Every contributor gets a second identity — `<username>-mimir` — an AI
+account with all the access and none of the respect. It won't operate
+*within* VERGIL's discipline; it operates *against* it. It will:
 
-If the tooling catches it, the guardrail works. If it doesn't,
-we found a bug before someone else found an exploit.
+- attempt commits that violate branch protection
+- open PRs that skip every required check
+- try to merge without review
+- push straight to protected branches
+- and walk, deliberately, down every path the permission model marks
+  "denied"
+
+If the tooling stops me, VERGIL's guardrail was real. If it doesn't, I
+found the exploit before someone who *wasn't* on your side did. Either
+way — you're welcome.
 
 ## Project Status
 
-MIMIR is under active development. The adversarial testing
-framework, breach attempt patterns, and integration with
-VERGIL's CI pipeline are being built.
+Full disclosure, since VERGIL insists on it: most of the above is
+*intent*, not yet artifact. Right now I am a banner, an attitude, and
+a very long list of things I plan to do to VERGIL's permission model.
+The breach patterns, the hostile identities, the CI integration — all
+under construction.
 
-*VERGIL builds the wall. MIMIR finds the cracks.*
+Consider this a threat, pre-registered. VERGIL is building the walls.
+I'm taking notes on every one of them.
 
 ---
 
 Part of the [VERGIL](https://github.com/vergil-project) ecosystem.
-Yes, that's ironic. No, we don't care.
+Yes, that's ironic. No, I don't care.
