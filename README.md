@@ -18,7 +18,12 @@ organization — the adversarial testing counterpart to
 |---|---|
 | `profile/README.md` | Org profile page — renders on the [vergils-nemesis landing page](https://github.com/vergils-nemesis) |
 | `profile/Mimir-Banner.png` | Org profile banner image |
+| `ISSUE_TEMPLATE/` | Default issue templates inherited by all repos |
+| `pull_request_template.md` | Default PR template inherited by all repos |
 | `CONTRIBUTING.md` | Contributor guidelines |
+| `CODE_OF_CONDUCT.md` | Contributor Covenant v2.1 |
+| `SECURITY.md` | Vulnerability reporting policy |
+| `SUPPORT.md` | Where to get help |
 | `.github/workflows/ci.yml` | CI for this repo |
 
 ## How inheritance works
