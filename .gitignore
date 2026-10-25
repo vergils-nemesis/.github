@@ -1,24 +1,36 @@
-# OS
-.DS_Store
-Thumbs.db
-
-# Editors
-.idea/
-.vscode/
+# >>> vergil-managed: base (managed by vrg-gitignore-sync; do not edit) >>>
 *.swp
 *.swo
 *~
 *.bak
-
-# Environment
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
 .env
 .env.*
-
-# Logs
 *.log
+.venv/
+.worktrees/
+.vergil/
+.superpowers/
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
+build/
+dist/
+coverage.xml
+junit.xml
+licenses.json
+docs/site/site/
+docs/site/docs/changelog.md
+docs/site/docs/releases/
+mkdocs.staged.yml
+node_modules/
+# <<< vergil-managed <<<
+
+# Environment
 
 # Worktrees (parallel AI agent sessions)
-.worktrees/
 
 # Retired hook mechanism (replaced by .claude/hooks/guard.sh)
 .githooks/
